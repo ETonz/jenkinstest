@@ -2,7 +2,7 @@ FROM php:8.0-apache as builder
 
 #COPY github_key .
 RUN apt update && apt install git wget unzip curl -y
-RUN git clone https://ETonz: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@github.com/ETonz/simplephpapp.git
+RUN git clone https://github.com/ETonz/simplephpapp.git
 #RUN eval $(ssh-agent) && \
 #    ssh-add github_key && \
 #    ssh-keyscan -H github.com >> /etc/ssh/ssh_known_hosts && \
