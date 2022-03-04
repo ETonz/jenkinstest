@@ -1,6 +1,6 @@
 <?php
 
-$name = "Choo";
+$name = "Jong";
 
 print("$name");
 
